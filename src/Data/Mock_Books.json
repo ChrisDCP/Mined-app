@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "Matemáticas 7°",
+    "author": "MINED",
+    "subject": "Matemáticas",
+    "url": "https://tu-proyecto.web.app/matematicas7.pdf"
+  },
+  {
+    "id": "2",
+    "title": "Lengua y Literatura 8°",
+    "author": "MINED",
+    "subject": "Lengua",
+    "url": "https://tu-proyecto.web.app/lengua8.pdf"
+  },
+  {
+    "id": "3",
+    "title": "Historia 9°",
+    "author": "MINED",
+    "subject": "Historia",
+    "url": "https://tu-proyecto.web.app/historia9.pdf"
+  }
+]
