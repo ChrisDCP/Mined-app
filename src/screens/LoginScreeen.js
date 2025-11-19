@@ -8,7 +8,7 @@ export default function LoginScreen({ navigation }) {
 
   const handleLogin = () => {
     console.log("Login con:", email, password);
-    navigation.replace("Home");
+    navigation.replace("MainTabs");
   };
 
   return (

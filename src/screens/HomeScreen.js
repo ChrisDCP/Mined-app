@@ -20,7 +20,7 @@ export default function HomeScreen({ navigation }) {
       <View style={styles.quickActions}>
         <TouchableOpacity
           style={styles.actionCard}
-          onPress={() => navigation.navigate("Books")}
+          onPress={() => navigation.navigate("Biblioteca")}
         >
           <Text style={styles.actionIcon}>📖</Text>
           <Text style={styles.actionText}>Biblioteca</Text>
@@ -33,7 +33,7 @@ export default function HomeScreen({ navigation }) {
 
         <TouchableOpacity
           style={styles.actionCard}
-          onPress={() => navigation.navigate("Profile")}
+          onPress={() => navigation.navigate("Perfil")}
         >
           <Text style={styles.actionIcon}>👤</Text>
           <Text style={styles.actionText}>Perfil</Text>

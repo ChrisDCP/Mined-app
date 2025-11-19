@@ -9,7 +9,7 @@ export default function RegisterScreen({ navigation }) {
 
   const handleRegister = () => {
     console.log("Registro con:", name, email, password);
-    navigation.replace("Home");
+    navigation.replace("MainTabs");
   };
 
   return (
