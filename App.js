@@ -1,6 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import AppNavigator from "./src/navigation/AppNavigator";
 import { StyleSheet } from "react-native";
+
 export default function App() {
   return (
     <NavigationContainer>
@@ -8,7 +9,6 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
 
 const styles = StyleSheet.create({
   container: {

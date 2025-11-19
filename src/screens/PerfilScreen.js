@@ -8,8 +8,9 @@ export default function PerfilScreen({ navigation }) {
         source={{ uri: "https://img.icons8.com/ios-filled/100/6C63FF/user.png" }}
         style={styles.avatar}
       />
-      <Text style={styles.name}>Christopher Castro</Text>
-      <Text style={styles.email}>christopher@mined.edu.ni</Text>
+      <Text style={styles.name}>Oscar Quant</Text>
+      <Text style={styles.email}>stevenquantdtk@gmail.com
+      </Text>
 
       <TouchableOpacity style={styles.option} onPress={() => navigation.navigate("Settings")}>
         <Text style={styles.optionText}>⚙️ Configuración de lectura</Text>

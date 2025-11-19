@@ -34,10 +34,10 @@ function MainTabs() {
         headerShown: false,
       })}
     >
-      <Tab.Screen name="Inicio" component={HomeScreen} />
+      {/*<Tab.Screen name="Inicio" component={HomeScreen} />
       <Tab.Screen name="Biblioteca" component={BooksScreen} />
-      <Tab.Screen name="Reportes" component={ReportesScreen} />
-      <Tab.Screen name="Perfil" component={PerfilScreen} />
+      {/*<Tab.Screen name="Reportes" component={ReportesScreen} />*/}
+      {/*<Tab.Screen name="Perfil" component={PerfilScreen} />*/}
     </Tab.Navigator>
   );
 }
@@ -46,12 +46,12 @@ export default function AppNavigator() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Welcome" component={WelcomeScreen} />
-      <Stack.Screen name="Login" component={LoginScreeen} />
-      <Stack.Screen name="Reader" component={ReaderScreen} />
-      <Stack.Screen name="Register" component={RegisterScreen} />
+      {/*<Stack.Screen name="Login" component={LoginScreeen} />
+      {/*<Stack.Screen name="Reader" component={ReaderScreen} />*/}
+      {/*<Stack.Screen name="Register" component={RegisterScreen} />
       <Stack.Screen name="MainTabs" component={MainTabs} />
-      <Stack.Screen name="Soporte" component={SoporteScreen} />
-      <Stack.Screen name="Settings" component={SettingsScreen} />
+      {/*<Stack.Screen name="Soporte" component={SoporteScreen} />
+      <Stack.Screen name="Settings" component={SettingsScreen} />*/}
     </Stack.Navigator>
   );
 }
